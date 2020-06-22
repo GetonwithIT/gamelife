@@ -47,17 +47,13 @@ header {
     height: 80px;
     width: 100%;
     background: white;
+    box-shadow: 0 0 5px #555;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 2;
-    transition: background .5s ease-out, height .3s ease-out;
+    transition: .5s ease-in-out;
     overflow: hidden;
-}
-
-header.scrolled {
-    background: #333;
-    color: white;
 }
 
 .logo {
@@ -106,23 +102,6 @@ li:hover {
     line-height: 85px;
     font-size: 24px;
     display: none;
-    cursor: pointer;
-}
-
-.fa-times {
-    display: none;
-}
-
-header.dropped {
-    height: 600px;
-}
-
-header.dropped .fa-bars{
-    display: none;
-}
-
-header.dropped .fa-times{
-    display: initial;
 }
 
 
@@ -236,10 +215,10 @@ main h2 {
 }
 
 .features2 img {
-    height: 100%;
+    height: 600px;
     width: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: right;
 }
 
 .features2 p {
@@ -362,14 +341,6 @@ footer input {
     }
     
     nav {
-        width: 100%;
-    }
-    
-    nav li {
-        float: none;
-        width: 100%;
-        text-align: center;
-        padding: 0;
-        font-size: 36px;
+        display: none;
     }
 }
