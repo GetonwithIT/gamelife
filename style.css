@@ -131,7 +131,7 @@ header.dropped .fa-times{
 
 main {
     height: 100vh;
-    background: url(images/gaming.jpg);
+    background: url(assets/gaming.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
