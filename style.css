@@ -148,6 +148,10 @@ main h2 {
 
                         /**** features ****/
 
+.features .flex-item {
+    flex-basis: 280px;
+}
+
 .icon {
     font-size: 64px;
     color: #fcba03;
