@@ -149,10 +149,6 @@ main h2 {
 
                         /**** features ****/
 
-.features .flex-item {
-    flex-basis: 25%;
-}
-
 .icon {
     font-size: 64px;
     color: #fcba03;
