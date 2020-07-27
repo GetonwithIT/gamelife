@@ -19,7 +19,8 @@ h2, h3, h4 {
 
 p {
     color: #999;
-    font-size: 16px;
+    font-size: 17px;
+    line-height: 1.7;
 }
 
 .button {
@@ -43,7 +44,7 @@ section {
 }
 
 .flex-item {
-    padding: 20px;
+    padding: 3%;
     box-sizing: border-box;
 }
 
@@ -149,7 +150,7 @@ main h2 {
                         /**** features ****/
 
 .features .flex-item {
-    flex-basis: 280px;
+    flex-basis: 25%;
 }
 
 .icon {
@@ -162,17 +163,13 @@ main h2 {
     font-size: 24px;
 }
 
-.features p {
-    line-height: 1.5;
-}
-
 
 
                         /**** immerse ****/
 
 .immerse .flex-item {
     text-align: center;
-    width: 50%;
+    flex-basis: 50%;
 }
 
 .immerse .flex-item:first-child {
@@ -201,7 +198,6 @@ main h2 {
 }
 
 .immerse p {
-    line-height: 1.7;
     margin-bottom: 50px;
 }
 
@@ -297,11 +293,11 @@ footer input {
 @media screen and (max-width:768px) {
 
     .flex-container {
-        flex-flow: column wrap;
+        display: block;
     }
 
     .immerse .flex-item {
-        width: 100%;
+        flex-basis: 100%;
     }
 
     .immerse img {
